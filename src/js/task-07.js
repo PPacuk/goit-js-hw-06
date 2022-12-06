@@ -2,5 +2,9 @@ const slide = document.querySelector("#font-size-control");
 const slideValues = slide.value;
 const text = document.querySelector("#text");
 
-text.addEventListener("change", (event) => (event.style.fontSize = slideValues));
-console.log(text);
+const textSize = () => {
+
+};
+
+slide.addEventListener("mosemove", textSize);
+console.log(textSize)
