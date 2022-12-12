@@ -5,7 +5,7 @@ function getRandomHexColor() {
 }
 const body = document.querySelector("body");
 const spanTextColor = document.querySelector(".color");
-body.style.backgroundColor = "rgb(250, 250, 250)";
+body.style.backgroundColor = "#FFFFFF";
 spanTextColor.textContent = body.style.backgroundColor;
 
 const btn = document.querySelector(".change-color");
